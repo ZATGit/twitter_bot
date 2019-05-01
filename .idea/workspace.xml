@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5450dc80-cb13-43fc-b1df-15d93c43aa17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter/bot_npr.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/bot_npr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter/bot_bbc.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/bot_bbc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,17 +17,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/bot_npr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="561">
+              <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twitter/bot_bbc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -58,14 +75,17 @@
       <list>
         <option value="C:/Python Programs/PythonTheHardWay/hardWay_part4.py/ex24_skeleton_and_venv.py" />
         <option value="$PROJECT_DIR$/twitter/bot.py" />
-        <option value="$PROJECT_DIR$/twitter/bot_bbc.py" />
         <option value="$PROJECT_DIR$/twitter/bot_xkcd.py" />
         <option value="$PROJECT_DIR$/twitter/credentials.py" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="C:/Python Stuff/snake_pygame/LICENSE.txt" />
         <option value="C:/Python Stuff/study_aid/LICENSE.txt" />
-        <option value="$PROJECT_DIR$/twitter/main.py" />
+        <option value="$PROJECT_DIR$/twitter/extract_text_paragraph.py" />
+        <option value="$PROJECT_DIR$/twitter/extract.py" />
+        <option value="$PROJECT_DIR$/twitter/bot_bbc.py" />
         <option value="$PROJECT_DIR$/twitter/bot_npr.py" />
+        <option value="$PROJECT_DIR$/twitter/main.py" />
+        <option value="$PROJECT_DIR$/twitter/__init__.py" />
       </list>
     </option>
   </component>
@@ -90,6 +110,11 @@
             </path>
             <path>
               <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -131,7 +156,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24893162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24893162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -195,10 +220,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/bot_bbc.py">
+    <entry file="file://$PROJECT_DIR$/twitter/extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -207,15 +242,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/bot_npr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/main.py">
+    <entry file="file://$PROJECT_DIR$/twitter/bot_bbc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="340">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

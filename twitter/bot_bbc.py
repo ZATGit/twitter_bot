@@ -20,9 +20,6 @@ oauth = OAuth(
 )
 t = Twitter(auth=oauth)
 
-
-
-
 def bbc_scrape():
     """Scrape articles from bbc.com"""
 
