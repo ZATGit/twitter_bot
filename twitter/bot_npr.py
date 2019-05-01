@@ -23,6 +23,7 @@ t = Twitter(auth=oauth)
 
 
 def npr_scrape():
+    """Scrape articles from npr.org"""
     #recognized as real client
     HEADERS = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5)'
@@ -35,10 +36,28 @@ def npr_scrape():
     links = tree.xpath('//section[@class="featured-group"]//div[@class="story-text"]/a/@href')
     print(links)
 
-    #fetch article
+    #fetch paragraphs
     for link in links:
         r = requests.get(link, headers=HEADERS)
         page_tree = fromstring(r.content)
+        paragraphs = page_tree.xpath('//div[@class="storytext"]/p')
+        paragraphs_text = [paragraphs.text_content() for paragraph in paragraphs if paragraph.text_content()]
+        paragraph = random.choice(paragraphs_text)
+        paragraph_tokenized = tokenizer.tokenize(paragraph)
+
+        #sort text from random paragraph. skip to next article if no matching sentence in 10 attempts.
+        for _ in range(10):
+            story_text = random.choice(paragraph_tokenized)
+            if text and 160 < len(text) < 280:
+                break
+
+        elif:
+
+    else:
+
+        yield None
+
+
 
 
 
