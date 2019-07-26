@@ -2,7 +2,7 @@
 
 A bot to scrape and post news content. 
 
-## Screenshot of the Bot in Action
+## Demo
 
 ![twitterBot_npr_snakeStory](https://user-images.githubusercontent.com/46094169/57589236-55fa8d00-74ef-11e9-8893-8260af2d59f0.PNG)
 
