@@ -1,20 +1,20 @@
-# Twitter News Bot
+# Newsy Bot
 
-A bot to scrape and post news content. 
+A Python project that scrapes approved websites for news article content and posts the article and a subsection of its contents to Twitter on a configurable timer. This bot was made using Twitter APIs and the following additional libraries: nltk, twitter, requests and lxml.
 
 ## Demo
 
 ![twitterBot_npr_snakeStory](https://user-images.githubusercontent.com/46094169/57589236-55fa8d00-74ef-11e9-8893-8260af2d59f0.PNG)
 
-### It finds the news story links and stores them in a list
+### This program finds the news story URLs from the site's homepage and stores them in a list
 
 ![twitterBot_linkList](https://user-images.githubusercontent.com/46094169/57589671-bb507d00-74f3-11e9-8b0a-2def6b2f0305.PNG)
 
-### Then extracts the story's paragraphs and extracts sentences of a specified length from them
+### Then extracts the story's paragraphs and extracts sentences of a specified length from those stories
 
 ![twitterBot_sentenceList](https://user-images.githubusercontent.com/46094169/57589682-ec30b200-74f3-11e9-9aec-a8f1d3838a43.PNG)
 
-### After randomizing the paragraphs and sentences, it posts the chosen sentence and corresponding story link to Twitter
+### After randomizing the paragraphs and sentences, it posts the chosen sentence and corresponding story URL to my Twitter account
 
 ## Prerequisites
 
